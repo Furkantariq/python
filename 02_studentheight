@@ -1,0 +1,15 @@
+// sh is student height // h is height// th is total height// st is total students// avg_t is average height
+sh= input("enter students height").split()
+for n in range(0, len(sh)):
+  sh[n]= int(sh[n])
+print(sh)
+th = 0
+for h in sh:
+  th+=h
+print(th)
+st=0
+for st in sh:
+   st +=1
+print(st)
+avg_h = th/ st
+print(avg_h
