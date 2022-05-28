@@ -1,0 +1,9 @@
+math_result= input("enter the marks sheet").split()
+for n in range(0,len(math_result)):
+ math_result[n] = int(math_result[n]) 
+print(math_result)
+highest_score = 0
+for score in math_result:
+  if score > highest_score:
+    highest_score = score 
+print(f"the hightes score in math test is {highest_score}")
